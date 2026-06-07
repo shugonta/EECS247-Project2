@@ -4,11 +4,11 @@ import argparse
 import os
 from typing import List
 
-from Classification.datasets.loaders import load_dataset
-from Classification.reducers.factory import make_reducer
-from Classification.models.factory import make_model
-from Classification.utils.evaluator import ExperimentEvaluator
-from Classification.utils.io import append_records_csv
+from datasets.loaders import load_dataset
+from reducers.factory import make_reducer
+from models.factory import make_model
+from utils.evaluator import ExperimentEvaluator
+from utils.io import append_records_csv
 
 
 def parse_args():

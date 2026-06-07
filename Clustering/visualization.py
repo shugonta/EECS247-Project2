@@ -14,7 +14,7 @@ from umap import UMAP
 from clustering import gmm, kmeans
 from dim_reduction import dct_reduce, pca, rp, srp
 from feature_extraction import load_cifar10_cnn, load_fashion_mnist_hog
-from main import load_cifar10, load_fashion_mnist, load_uci_har
+from Classification.main import load_cifar10, load_fashion_mnist, load_uci_har
 
 
 RANDOM_STATE = 42
