@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Experiment outputs
+results/
+results_back/
+analysis_output/
+analysis_outputs/
+
+# Downloaded datasets / cache
+data/
+
+# Generated artifacts
+*.log
+*.tmp
+.DS_Store
+*.Zone.Identifier
+*:Zone.Identifier
+
+# Graph/analysis generation scripts (exclude from commits)
+analyze_results.py
+scripts/
